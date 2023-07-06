@@ -24,12 +24,14 @@
             android:id="@+id/etNilai1"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:hint="Nilai A"/>
+            android:inputType="number"
+            android:hint="Nilai A" />
 
         <EditText
             android:id="@+id/etNilai2"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:inputType="number"
             android:hint="Nilai B"/>
     </LinearLayout>
 
