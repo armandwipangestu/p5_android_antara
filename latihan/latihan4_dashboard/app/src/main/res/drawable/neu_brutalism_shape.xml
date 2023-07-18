@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer untuk latar belakang solid color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/green_1" />
+        </shape>
+    </item>
+
+    <!-- Layer untuk stroke tanpa padding pada kiri dan atas -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:color="#000000"
+                android:width="3dp" />
+            <padding
+                android:left="3dp"
+                android:top="3dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -7,4 +7,11 @@
     <string name="barang">Barang</string>
     <string name="lokasi">Lokasi</string>
     <string name="hamper">Hamper</string>
+    <string name="coffe">Coffe</string>
+    <string name="ayam_amp_waffle"><![CDATA[Ayam & Waffle]]></string>
+    <string name="ayam_goreng">Ayam Goreng</string>
+    <string name="coin">coin</string>
+    <string name="kopi">Kopi</string>
+    <string name="search">search</string>
+    <string name="user">user</string>
 </resources>

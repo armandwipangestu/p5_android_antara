@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#3a539b"
+        android:layout_height="80dp"
+        android:background="@drawable/custom4"
     />
 
 <!--    Custom 1-->
     
     <RelativeLayout
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/custom1"
     />
 
 <!--    Icon User-->
     <ImageView
         android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/user"
+        android:layout_height="40dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="15dp"
-    />
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/user"
+        android:src="@drawable/user" />
 
 <!--    Icon Search-->
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:src="@drawable/search"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="15dp"
-    />
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:contentDescription="@string/search" />
 
 <!--    Custom2-->
     <RelativeLayout
@@ -68,8 +69,8 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="30dp"
             android:layout_marginTop="35dp"
-            android:src="@drawable/logo"
-        />
+            android:src="@drawable/coin"
+            android:contentDescription="@string/coin" />
 
         <TextView
             android:layout_width="90dp"
@@ -88,33 +89,33 @@
             android:id="@+id/takeaway"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/box"
+            android:layout_toEndOf="@id/box"
             android:src="@drawable/takeaway"
-        />
+            android:contentDescription="@string/takeaway" />
 
 <!--        Icon wallet-->
         <ImageView
             android:id="@+id/wallet"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/takeaway"
+            android:layout_toEndOf="@id/takeaway"
             android:src="@drawable/wallet"
-        />
+            android:contentDescription="@string/wallet" />
 
 <!--        Icon Gift-->
         <ImageView
             android:id="@+id/kado"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/wallet"
+            android:layout_toEndOf="@id/wallet"
             android:src="@drawable/gift"
-            />
+            android:contentDescription="@string/gift" />
 
 <!--        Text Takeaway-->
         <TextView
@@ -125,7 +126,7 @@
             android:layout_marginTop="70dp"
             android:layout_toEndOf="@id/box"
             android:text="@string/takeaway"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
         />
@@ -139,7 +140,7 @@
             android:layout_marginTop="70dp"
             android:layout_toEndOf="@id/txtTakeaway"
             android:text="@string/wallet"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
         />
@@ -153,7 +154,7 @@
             android:layout_marginTop="70dp"
             android:layout_toEndOf="@id/txtWallet"
             android:text="@string/gift"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
         />
@@ -163,7 +164,7 @@
     <RelativeLayout
         android:id="@+id/brng"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="270dp"
         android:layout_marginTop="280dp"
         android:background="@drawable/custom4"
         >
@@ -176,8 +177,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="15dp"
             android:src="@drawable/basket"
-            android:background="@drawable/custom4"
-            />
+            android:contentDescription="@string/barang" />
 
         <!--        Icon Location-->
         <ImageView
@@ -188,8 +188,7 @@
             android:layout_marginTop="15dp"
             android:layout_toEndOf="@id/basket"
             android:src="@drawable/location"
-            android:background="@drawable/custom4"
-        />
+            android:contentDescription="@string/lokasi" />
 
         <!--        Icon Hamper-->
         <ImageView
@@ -200,8 +199,7 @@
             android:layout_marginTop="15dp"
             android:layout_toEndOf="@id/location"
             android:src="@drawable/hamper"
-            android:background="@drawable/custom4"
-        />
+            android:contentDescription="@string/hamper" />
 
         <TextView
             android:id="@+id/txtBarang"
@@ -210,7 +208,7 @@
             android:layout_marginStart="53dp"
             android:layout_marginTop="100dp"
             android:text="@string/barang"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold"
         />
 
@@ -222,7 +220,7 @@
             android:layout_marginTop="100dp"
             android:layout_toEndOf="@id/txtBarang"
             android:text="@string/lokasi"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold"
         />
 
@@ -234,7 +232,75 @@
             android:layout_marginTop="100dp"
             android:layout_toEndOf="@id/txtLokasi"
             android:text="@string/hamper"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+
+        <!--        Icon Coffe-->
+        <ImageView
+            android:id="@+id/coffe"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="145dp"
+            android:src="@drawable/coffe"
+            android:contentDescription="@string/kopi" />
+
+        <!--        Icon Location-->
+        <ImageView
+            android:id="@+id/chicken_and_waffle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="145dp"
+            android:layout_toEndOf="@id/coffe"
+            android:src="@drawable/chicken_and_waffle"
+            android:contentDescription="@string/ayam_amp_waffle" />
+
+        <!--        Icon Hamper-->
+        <ImageView
+            android:id="@+id/fried_chicken"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="145dp"
+            android:layout_toEndOf="@id/chicken_and_waffle"
+            android:src="@drawable/fried_chicken"
+            android:contentDescription="@string/ayam_goreng" />
+
+        <TextView
+            android:id="@+id/txtCoffe"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="230dp"
+            android:text="@string/kopi"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/txtChickenAndWaffle"
+            android:layout_width="95dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="230dp"
+            android:layout_toEndOf="@id/txtCoffe"
+            android:text="@string/ayam_amp_waffle"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/txtFriedChicken"
+            android:layout_width="87dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="230dp"
+            android:layout_toEndOf="@id/txtChickenAndWaffle"
+            android:text="@string/ayam_goreng"
+            android:textColor="@color/black"
             android:textStyle="bold"
         />
     </RelativeLayout>
