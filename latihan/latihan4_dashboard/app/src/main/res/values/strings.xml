@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">latihan4_dashboard</string>
+    <string name="rp_299_999">Rp. 299.999</string>
+    <string name="takeaway">Takeaway</string>
+    <string name="wallet">Wallet</string>
+    <string name="gift">Gift</string>
+    <string name="barang">Barang</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="hamper">Hamper</string>
 </resources>
