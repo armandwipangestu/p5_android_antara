@@ -19,4 +19,7 @@
     <string name="your_cart_full">Your Cart Full</string>
     <string name="person">Person</string>
     <string name="digital_marketing">Digital Marketing</string>
+    <string name="menu">Menu:</string>
+    <string name="silahkan_isi_menu_pilihan">Silahkan isi menu pilihan</string>
+    <string name="klik_bayar">Klik Bayar</string>
 </resources>
