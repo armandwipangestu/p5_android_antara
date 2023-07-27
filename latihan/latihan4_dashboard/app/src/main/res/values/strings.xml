@@ -14,4 +14,9 @@
     <string name="kopi">Kopi</string>
     <string name="search">search</string>
     <string name="user">user</string>
+    <string name="welcome_to_application">Welcome to Application</string>
+    <string name="you_have_a_notification">You Have a Notification</string>
+    <string name="your_cart_full">Your Cart Full</string>
+    <string name="person">Person</string>
+    <string name="digital_marketing">Digital Marketing</string>
 </resources>
