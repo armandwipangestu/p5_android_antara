@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
+
     <TextView
         android:id="@+id/txt_home"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:id="@+id/wallet"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="270dp"
         android:background="@drawable/custom4"
         android:src="@drawable/wallet"
@@ -118,7 +118,7 @@
         android:id="@+id/fried_chicken"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="390dp"
         android:background="@drawable/custom4"
         android:src="@drawable/fried_chicken"

@@ -31,20 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 f = new FragmentPerson();
             }
 
-//            switch(item.getItemId()) {
-//                case R.id.menu_home:
-//                    f = new FragmentHome();
-//                    break;
-//                case R.id.menu_cart:
-//                    f = new FragmentCart();
-//                    break;
-//                case R.id.menu_notification:
-//                    f = new FragmentNotif();
-//                    break;
-//                case R.id.menu_person:
-//                    f = new FragmentPerson();
-//                    break;
-//            }
+            assert f != null;
             getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment, f).commit();
             return true;
         }
@@ -57,13 +44,3 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(navigation);
     }
 }
-
-//class MainActivity : AppCompatActivity() {
-////    override fun onCreate(savedInstanceState: Bundle?) {
-////        super.onCreate(savedInstanceState)
-////        setContentView(R.layout.activity_main)
-////    }
-//
-//    BottomNavigationView bottomNavigationView;
-//    private BottomNavigationView
-//}
