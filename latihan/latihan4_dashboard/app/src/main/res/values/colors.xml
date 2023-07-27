@@ -11,4 +11,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#4682B4</color>
+    <color name="ColorPrimary">#000080</color>
+    <color name="ColorPrimaryDark">#808080</color>
+    <color name="ColorAccent">#FFB6C1</color>
 </resources>
